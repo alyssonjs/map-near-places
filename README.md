@@ -26,7 +26,7 @@ API REST that shows the user's closest locations.
 
 - Docker / Docker Compose config.
 
-- Errors catchers with ExceptionHandler.
+- Errors catcher with ExceptionHandler.
 
 - TDD with Rspec usging Faker, FactoryBot, Shoulda Matchers end DatabaseCleaner for:
     - Authentication
