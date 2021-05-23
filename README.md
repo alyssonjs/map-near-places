@@ -2,6 +2,10 @@
 
 API REST that shows the user's closest locations.
 
+## Documentation:
+
+-To know how to basic create places e get them by your current location proximity: https://documenter.getpostman.com/view/9971759/TzXukJXC
+
 ## Using:
 
 - Ruby version 2.7.3 with Rails 6.0.3
