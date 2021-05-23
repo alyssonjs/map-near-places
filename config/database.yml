@@ -1,0 +1,23 @@
+default: &default
+
+  adapter: postgresql
+  encoding: unicode
+  host: db
+  username: postgres
+  password: password
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: map_near_paces
+
+test:
+  <<: *default
+  database: map_near_paces_test
+
+
+production:
+  <<: *default
+  database: map_near_paces_production
+  username: map_near_paces
+  password: <%= ENV['NEARBY_PLACES_DATABASE_PASSWORD'] %>
