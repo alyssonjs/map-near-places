@@ -28,7 +28,7 @@ API REST that shows the user's closest locations.
 
 - Errors catcher with ExceptionHandler.
 
-- TDD with Rspec usging Faker, FactoryBot, Shoulda Matchers end DatabaseCleaner for:
+- TDD with Rspec using Faker, FactoryBot, Shoulda Matchers end DatabaseCleaner for:
     - Authentication
     - Models
     - Serializers
