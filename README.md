@@ -1,4 +1,4 @@
-# Nearby Places
+# Map Near Places
 
 API REST that shows the user's closest locations.
 
