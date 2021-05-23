@@ -6,7 +6,7 @@ class Api::V1::RatingsController < ApplicationController
         @ratings = Rating.where(location_id: params[:location_id])
         render json: @ratings, status: :ok, each_serializer: RatingsSerializer
     end
-    
+
     def new
         @rating = Rating.new
     end
@@ -19,7 +19,7 @@ class Api::V1::RatingsController < ApplicationController
             render json: @rating, status: :created 
         else
             render json: { errors: @rating.errors.full_messages },
-                           status: :unprocessable_entity
+                            status: :unprocessable_entity
         end
     end
 
@@ -41,6 +41,6 @@ class Api::V1::RatingsController < ApplicationController
     def find_rating
         @rating = Rating.find_by_id(params[:location_id])
     end
-    
+
 end
     

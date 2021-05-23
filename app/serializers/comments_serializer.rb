@@ -4,4 +4,4 @@ class CommentsSerializer < ApplicationSerializer
     def created_by
         object.user.name
     end
-  end
+end
