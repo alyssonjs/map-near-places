@@ -2,6 +2,17 @@
 
 API REST that shows the user's closest locations.
 
+## Docker:
+to inicialize docker just fallow the steps:
+if you have any permissions issue, just run the following commands with "sudo";
+
+- docker-compose build 
+- docker-compose run app rake db:create
+- docker-compose run app rake db:migrate
+- docker-compose up
+
+and the server is on!
+
 ## Documentation:
 
 -To know how to basic create places e get them by your current location proximity: https://documenter.getpostman.com/view/9971759/TzXukJXC
